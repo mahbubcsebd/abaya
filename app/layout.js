@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
 
     return (
         <html lang="en">
-            <GoogleTagManager gtmId="GTM-W88HTZJ2" />
+            <GoogleTagManager gtmId="GTM-TJDRPB6Q" />
             <body className={poppins.className}>
                 <ProductContext.Provider value={{ state, dispatch }}>
                     <ScrollProvider>
