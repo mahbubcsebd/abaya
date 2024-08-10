@@ -36,8 +36,8 @@ const ProductSlider = ({ product }) => {
                                 <Image
                                     src={orginalImg.original_url}
                                     alt="hero slider"
-                                    width={100}
-                                    height={100}
+                                    width={400}
+                                    height={550}
                                     className="w-full h-full"
                                 />
                             </SwiperSlide>
