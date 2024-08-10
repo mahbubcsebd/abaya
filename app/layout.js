@@ -37,17 +37,17 @@ export default function RootLayout({ children }) {
 
     return (
         <html lang="en">
-            <GoogleTagManager gtmId="GTM-TLN5QLJW" />
+            <GoogleTagManager gtmId="GTM-W88HTZJ2" />
             <body className={poppins.className}>
                 <ProductContext.Provider value={{ state, dispatch }}>
-                        <ScrollProvider>
-                    <SearchProvider>
+                    <ScrollProvider>
+                        <SearchProvider>
                             {pathname !== '/order-successfull' && <Header />}
                             {children}
                             {pathname !== '/order-successfull' && <Footer />}
                             <ToastContainer />
-                    </SearchProvider>
-                        </ScrollProvider>
+                        </SearchProvider>
+                    </ScrollProvider>
                 </ProductContext.Provider>
             </body>
         </html>
